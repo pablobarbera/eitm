@@ -1,0 +1,183 @@
+---
+title: Code
+---
+
+The following list provides links to the slides and code used in the guided coding sessions. The solutions to the challenges will be made available through RStudio Server.
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day1" class="panel-title">
+<a data-toggle="collapse" href="#collapse2">Session 1: Social media and Big Data research. Opportunities and challenges.</a>
+</h2>
+</div>
+<div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
+
+<ul>
+<li><p><a href="slides/01-social-media-intro.pdf">SLIDES: Introduction to social media research</a></p>
+</li>
+
+<li><p><a href="code/00-setup.html">Introduction to RMarkdown and Setup</a> (<a href="code/00-setup.Rmd">.Rmd file</a>)</p>
+</li>
+
+<li><p><a href="code/01-loops-functions.html">Lists, Functions, and Loops
+</a> (<a href="code/01-loops-functions.Rmd">.Rmd file</a>)</p>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day1" class="panel-title">
+<a data-toggle="collapse" href="#collapse2">Session 2: Scraping the web.</a>
+</h2>
+</div>
+<div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
+
+<ul>
+<li><p><a href="slides/02-scraping.pdf">SLIDES: Web scraping</a></p>
+</li>
+
+<li><p><a href="code/03-scraping-tables.html">Scraping tables</a> (<a href="code/03-scraping-tables.Rmd">.Rmd file</a>)</p>
+</li>
+
+<li><p><a href="code/challenge1.Rmd">Coding challenge 1 (.Rmd file)</a></p>
+</li>
+
+<li><p><a href="code/04-scraping-unstructured-data.html">Scraping unstructured data from the web
+</a> (<a href="code/04-scraping-unstructured-data.Rmd">.Rmd file</a>)</p>
+</li>
+
+<li><p><a href="code/challenge2.Rmd">Coding challenge 2 (.Rmd file)</a></p>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day1" class="panel-title">
+<a data-toggle="collapse" href="#collapse2">Session 3: Collecting data from social media.</a>
+</h2>
+</div>
+<div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
+
+<ul>
+<li><p><a href="slides/03-social-media.pdf">SLIDES: Social media data</a></p>
+</li>
+
+<li><p><a href="code/05-twitter-streaming-data-collection.html">Collecting Twitter data from the Streaming API</a> (<a href="code/05-twitter-streaming-data-collection.Rmd">.Rmd file</a>)</p>
+</li>
+
+<li><p><a href="challenges/challenge3.Rmd">Coding challenge 3 (.Rmd file)</a></p>
+</li>
+
+
+<li><p><a href="code/06-twitter-REST-data-collection.html">Collecting Twitter data from the REST API</a> (<a href="code/06-twitter-REST-data-collection.Rmd">.Rmd file</a>)</p>
+</li>
+<li><p><a href="code/07-facebook-data-collection.html">Collecting Facebook data from the Graph API</a> (<a href="code/07-facebook-data-collection.Rmd">.Rmd file</a>)</p>
+</li>
+<li><p><a href="challenges/challenge4.Rmd">Coding challenge 4 (.Rmd file)</a></p>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day1" class="panel-title">
+<a data-toggle="collapse" href="#collapse2">Session 4: Discovery in social media text.</a>
+</h2>
+</div>
+<div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
+<ul>
+<li><p><a href="slides/05-text-discovery.pdf">SLIDES: Discovery in social media text</a></p>
+</li>
+
+<li><p><a href="code/07-text-discovery.html">Discovery in social media text</a> (<a href="code/07-text-discovery.Rmd">.Rmd file</a>)</p>
+</li>
+
+</li>
+<li><p><a href="code/challenge5.Rmd">Coding challenge 5 (.Rmd file)</a></p>
+</li>
+
+<li><p><a href="code/08-topic-models.html">Topic models</a> (<a href="code/08-topic-models.Rmd">.Rmd file</a>)</p>
+</li>
+<li><p><a href="code/09-advanced-topic-models.html">(Advanced) topic models</a> (<a href="code/09-advanced-topic-models.Rmd">.Rmd file</a>)</p>
+</li>
+<li><p><a href="code/challenge6.Rmd">Coding challenge 6 (.Rmd file)</a></p>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day1" class="panel-title">
+<a data-toggle="collapse" href="#collapse2">Session 5: Querying large-scale datasets with R.</a>
+</h2>
+</div>
+<div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
+<ul>
+<li><p><a href="SQL-slides.pdf">SLIDES: Querying large-scale online datasets with SQL and Google BigQuery</a></p>
+</li>
+
+<li><p><a href="code/10-sql-intro.html">Basics of SQL queries</a> (<a href="code/10-sql-intro.Rmd">.Rmd file</a>)</p>
+</li>
+<li><p><a href="challenges/challenge7.Rmd">Coding challenge 7 (.Rmd file)</a></p>
+</li>
+<li><p><a href="code/11-sql-advanced.html">Querying multiple tables. Grouping and aggregating operations.</a> (<a href="code/11-sql-advanced.Rmd">.Rmd file</a>)</p>
+</li>
+</li>
+<li><p><a href="challenges/challenge8.Rmd">Coding challenge 8 (.Rmd file)</a></p>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="day1" class="panel-title">
+<a data-toggle="collapse" href="#collapse2">Session 6: Google BigQuery..</a>
+</h2>
+</div>
+<div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
+<ul>
+<li><p><a href="code/12-bigquery-intro.html">Introduction to Google BigQuery</a> (<a href="code/12-bigquery-intro.Rmd">.Rmd file</a>)</p>
+</li>
+<li><p><a href="challenges/challenge9.Rmd">Coding challenge 9 (.Rmd file)</a></p>
+</li>
+<li><p><a href="code/13-bigquery-advanced.html">Analyzing a billion-row dataset with Google BigQuery</a> (<a href="code/13-bigquery-advanced.Rmd">.Rmd file</a>)</p>
+</li>
+<li><p><a href="challenges/challenge10.Rmd">Coding challenge 10 (.Rmd file)</a></p>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
