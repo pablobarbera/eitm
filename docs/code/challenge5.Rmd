@@ -1,0 +1,71 @@
+---
+title: "Challenge 5"
+author: Pablo Barbera
+date: July 6, 2018
+output: html_document
+---
+
+In this challenge we will work with the speeches by Donald Trump and Hillary Clinton that you scraped yesterday. In case you had some trouble downloading them, I'm providing them here too. Read the data into R and create a corpus and DFM using the default options in quanteda.
+
+```{r}
+library(quanteda)
+speeches <- read.csv("../data/campaign-speeches.csv", stringsAsFactors = FALSE)
+speeches$date <- as.Date(speeches$date, format='%B %d, %Y')
+
+
+```
+
+Now, find which words are more unique in speeches by Trump as opposed to Clinton. What do you earn?
+
+```{r}
+
+```
+
+Replicate the analysis with Clinton compared to Trump. How do you interpret the results?
+
+```{r}
+
+
+```
+
+Create the DFM again, but this time exclude punctuation and stopwords. Do the results change when you compute keyness for each of these two sets of speeches?
+
+```{r}
+
+
+
+```
+
+We will now focus on bigrams. Create the DFM but _only_ with bigrams. You may want to trim it afterwards to speed up the code. Again, compute keyness for each of the two sets of actors. How do the results change?
+
+```{r}
+
+
+```
+
+Restrict now the analysis _only_ to stopwords using the `select` argument in `dfm`. As before, compute keyness for each of the two sets of speeches. Do you find any interesting patterns?
+
+```{r}
+
+
+```
+
+Compare the speeches by Clinton during her first and second presidential runs. You may want to add some additional stopwords for common names such as Sanders or Bush. What do you find?
+
+
+```{r}
+
+
+```
+
+Finally, prepare some x-ray plots that illustrate how Donald Trump paid attention to different topics during the campaign.
+
+```{r}
+
+
+```
+
+
+
+
+

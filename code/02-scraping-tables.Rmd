@@ -85,10 +85,9 @@ We'll use regular expressions to remove endnotes and commas in the population nu
 
 ```{r}
 pop$City <- gsub('\\[.*\\]', '', pop$City)
-library(stringr)
-pop$population <- as.numeric(str_replace_all(pop[,"2017\nestimate"], ",", ""))
+pop$population <- pop[,"2017\nestimate"]
+pop$population <- as.numeric(gsub(",", "", pop$population))
 pop$rank <- pop[,"2017\nrank"]
-head(pop[,c("City", "population", "rank")])
 ```
 
 Now we're ready to generate the figure:

@@ -42,7 +42,7 @@ We will follow a "learning-by-doing" approach, with short guided coding sessions
 <td></td>
 <td><b>Session 2</b></td>
 <td>Scraping the web.</td>
-<td> 14:30&ndash;17:00 </td>
+<td> 14:00&ndash;16:30 </td>
 </tr>
 
 <tr>
@@ -56,7 +56,7 @@ We will follow a "learning-by-doing" approach, with short guided coding sessions
 <td></td>
 <td><b>Session 4</b></td>
 <td>Topic discovery in social media datasets.</td>
-<td> 13:30&ndash;16:00 </td>
+<td> 13:00&ndash;15:30 </td>
 </tr>
 
 
@@ -71,7 +71,7 @@ We will follow a "learning-by-doing" approach, with short guided coding sessions
 <td></td>
 <td><b>Session 6</b></td>
 <td>Big Data analysis using Google BigQuery.</td>
-<td> 13:30&ndash;16:00 </td>
+<td> 13:00&ndash;15:30 </td>
 </tr>
 </table>
 

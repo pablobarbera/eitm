@@ -84,8 +84,6 @@ The following list provides links to the slides and code used in the guided codi
 
 <li><p><a href="code/05-twitter-REST-data-collection.html">Collecting Twitter data from the REST API</a> (<a href="code/05-twitter-REST-data-collection.Rmd">.Rmd file</a>)</p>
 </li>
-<li><p><a href="code/06-facebook-data-collection.html">Collecting Facebook data from the Graph API</a> (<a href="code/06-facebook-data-collection.Rmd">.Rmd file</a>)</p>
-</li>
 <li><p><a href="challenges/challenge4.Rmd">Coding challenge 4 (.Rmd file)</a></p>
 </li>
 
@@ -109,16 +107,16 @@ The following list provides links to the slides and code used in the guided codi
 <li><p><a href="slides/05-text-discovery.pdf">SLIDES: Discovery in social media text</a></p>
 </li>
 
-<li><p><a href="code/07-text-discovery.html">Discovery in social media text</a> (<a href="code/07-text-discovery.Rmd">.Rmd file</a>)</p>
+<li><p><a href="code/06-text-discovery.html">Discovery in social media text</a> (<a href="code/06-text-discovery.Rmd">.Rmd file</a>)</p>
 </li>
 
 </li>
 <li><p><a href="code/challenge5.Rmd">Coding challenge 5 (.Rmd file)</a></p>
 </li>
 
-<li><p><a href="code/08-topic-models.html">Topic models</a> (<a href="code/08-topic-models.Rmd">.Rmd file</a>)</p>
+<li><p><a href="code/07-topic-models.html">Topic models</a> (<a href="code/07-topic-models.Rmd">.Rmd file</a>)</p>
 </li>
-<li><p><a href="code/09-advanced-topic-models.html">(Advanced) topic models</a> (<a href="code/09-advanced-topic-models.Rmd">.Rmd file</a>)</p>
+<li><p><a href="code/08-advanced-topic-models.html">(Advanced) topic models</a> (<a href="code/08-advanced-topic-models.Rmd">.Rmd file</a>)</p>
 </li>
 <li><p><a href="code/challenge6.Rmd">Coding challenge 6 (.Rmd file)</a></p>
 </li>
@@ -140,14 +138,14 @@ The following list provides links to the slides and code used in the guided codi
 </div>
 <div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
 <ul>
-<li><p><a href="SQL-slides.pdf">SLIDES: Querying large-scale online datasets with SQL and Google BigQuery</a></p>
+<li><p><a href="slides/05-sql.pdf">SLIDES: Querying large-scale online datasets with SQL and Google BigQuery</a></p>
 </li>
 
-<li><p><a href="code/10-sql-intro.html">Basics of SQL queries</a> (<a href="code/10-sql-intro.Rmd">.Rmd file</a>)</p>
+<li><p><a href="code/09-sql-intro.html">Basics of SQL queries</a> (<a href="code/09-sql-intro.Rmd">.Rmd file</a>)</p>
 </li>
 <li><p><a href="challenges/challenge7.Rmd">Coding challenge 7 (.Rmd file)</a></p>
 </li>
-<li><p><a href="code/11-sql-advanced.html">Querying multiple tables. Grouping and aggregating operations.</a> (<a href="code/11-sql-advanced.Rmd">.Rmd file</a>)</p>
+<li><p><a href="code/10-sql-advanced.html">Querying multiple tables. Grouping and aggregating operations.</a> (<a href="code/10-sql-advanced.Rmd">.Rmd file</a>)</p>
 </li>
 </li>
 <li><p><a href="challenges/challenge8.Rmd">Coding challenge 8 (.Rmd file)</a></p>
@@ -168,11 +166,11 @@ The following list provides links to the slides and code used in the guided codi
 </div>
 <div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
 <ul>
-<li><p><a href="code/12-bigquery-intro.html">Introduction to Google BigQuery</a> (<a href="code/12-bigquery-intro.Rmd">.Rmd file</a>)</p>
+<li><p><a href="code/11-bigquery-intro.html">Introduction to Google BigQuery</a> (<a href="code/11-bigquery-intro.Rmd">.Rmd file</a>)</p>
 </li>
 <li><p><a href="challenges/challenge9.Rmd">Coding challenge 9 (.Rmd file)</a></p>
 </li>
-<li><p><a href="code/13-bigquery-advanced.html">Analyzing a billion-row dataset with Google BigQuery</a> (<a href="code/13-bigquery-advanced.Rmd">.Rmd file</a>)</p>
+<li><p><a href="code/12-bigquery-advanced.html">Analyzing a billion-row dataset with Google BigQuery</a> (<a href="code/12-bigquery-advanced.Rmd">.Rmd file</a>)</p>
 </li>
 <li><p><a href="challenges/challenge10.Rmd">Coding challenge 10 (.Rmd file)</a></p>
 </li>
