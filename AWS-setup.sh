@@ -44,3 +44,29 @@ do
 	sudo chown eitm$i -R /home/eitm$i/
 done
 
+# materials day 2
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/04-twitter-streaming-data-collection.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/05-twitter-REST-data-collection.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge3.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge4.Rmd /home/eitm$i/code/
+	mkdir /home/eitm$i/credentials/
+	sudo chown eitm$i -R /home/eitm$i/
+done
+
+
+
+# materials day 2
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/06-text-discovery.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/07-topic-models.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/08-advanced-topic-models.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge5.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge6.Rmd /home/eitm$i/code/
+	cp /home/rstudio/data/trump-tweets.json /home/eitm$i/data/
+	cp /home/rstudio/data/nytimes.csv /home/eitm$i/data/
+	cp /home/rstudio/data/candidate-tweets.csv /home/eitm$i/data/
+	cp /home/rstudio/data/campaign-speeches.csv /home/eitm$i/data/
+done
