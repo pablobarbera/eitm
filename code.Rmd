@@ -78,13 +78,13 @@ The following list provides links to the slides and code used in the guided codi
 <li><p><a href="code/04-twitter-streaming-data-collection.html">Collecting Twitter data from the Streaming API</a> (<a href="code/04-twitter-streaming-data-collection.Rmd">.Rmd file</a>)</p>
 </li>
 
-<li><p><a href="challenges/challenge3.Rmd">Coding challenge 3 (.Rmd file)</a></p>
+<li><p><a href="code/challenge3.Rmd">Coding challenge 3 (.Rmd file)</a></p>
 </li>
 
 
 <li><p><a href="code/05-twitter-REST-data-collection.html">Collecting Twitter data from the REST API</a> (<a href="code/05-twitter-REST-data-collection.Rmd">.Rmd file</a>)</p>
 </li>
-<li><p><a href="challenges/challenge4.Rmd">Coding challenge 4 (.Rmd file)</a></p>
+<li><p><a href="code/challenge4.Rmd">Coding challenge 4 (.Rmd file)</a></p>
 </li>
 
 
@@ -143,12 +143,12 @@ The following list provides links to the slides and code used in the guided codi
 
 <li><p><a href="code/09-sql-intro.html">Basics of SQL queries</a> (<a href="code/09-sql-intro.Rmd">.Rmd file</a>)</p>
 </li>
-<li><p><a href="challenges/challenge7.Rmd">Coding challenge 7 (.Rmd file)</a></p>
+<li><p><a href="code/challenge7.Rmd">Coding challenge 7 (.Rmd file)</a></p>
 </li>
 <li><p><a href="code/10-sql-advanced.html">Querying multiple tables. Grouping and aggregating operations.</a> (<a href="code/10-sql-advanced.Rmd">.Rmd file</a>)</p>
 </li>
 </li>
-<li><p><a href="challenges/challenge8.Rmd">Coding challenge 8 (.Rmd file)</a></p>
+<li><p><a href="code/challenge8.Rmd">Coding challenge 8 (.Rmd file)</a></p>
 </li>
 
 </ul>
@@ -168,11 +168,11 @@ The following list provides links to the slides and code used in the guided codi
 <ul>
 <li><p><a href="code/11-bigquery-intro.html">Introduction to Google BigQuery</a> (<a href="code/11-bigquery-intro.Rmd">.Rmd file</a>)</p>
 </li>
-<li><p><a href="challenges/challenge9.Rmd">Coding challenge 9 (.Rmd file)</a></p>
+<li><p><a href="code/challenge9.Rmd">Coding challenge 9 (.Rmd file)</a></p>
 </li>
 <li><p><a href="code/12-bigquery-advanced.html">Analyzing a billion-row dataset with Google BigQuery</a> (<a href="code/12-bigquery-advanced.Rmd">.Rmd file</a>)</p>
 </li>
-<li><p><a href="challenges/challenge10.Rmd">Coding challenge 10 (.Rmd file)</a></p>
+<li><p><a href="code/challenge10.Rmd">Coding challenge 10 (.Rmd file)</a></p>
 </li>
 
 </ul>

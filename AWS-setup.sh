@@ -77,11 +77,20 @@ do
 	sudo chown eitm$i -R /home/eitm$i/
 done
 
-# solutions challenge 3
+# solutions challenge 4
 for i in 0{1..9} {10..50}
 do
 	cp /home/rstudio/code/challenge4-solutions.Rmd /home/eitm$i/code/
 	cp /home/rstudio/code/challenge4-solutions.html /home/eitm$i/code/
+	sudo chown eitm$i -R /home/eitm$i/
+done
+
+
+# solutions challenge 5
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/challenge5-solutions.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge5-solutions.html /home/eitm$i/code/
 	sudo chown eitm$i -R /home/eitm$i/
 done
 
