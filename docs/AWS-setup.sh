@@ -55,14 +55,6 @@ do
 	sudo chown eitm$i -R /home/eitm$i/
 done
 
-# solutions challenge 3
-for i in 0{1..9} {10..50}
-do
-	cp /home/rstudio/code/challenge3-solutions.Rmd /home/eitm$i/code/
-	cp /home/rstudio/code/challenge3-solutions.html /home/eitm$i/code/
-	sudo chown eitm$i -R /home/eitm$i/
-done
-
 # materials day 2, afternoon session
 for i in 0{1..9} {10..50}
 do
@@ -76,3 +68,20 @@ do
 	cp /home/rstudio/data/candidate-tweets.csv /home/eitm$i/data/
 	cp /home/rstudio/data/campaign-speeches.csv /home/eitm$i/data/
 done
+
+# solutions challenge 3
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/challenge3-solutions.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge3-solutions.html /home/eitm$i/code/
+	sudo chown eitm$i -R /home/eitm$i/
+done
+
+# solutions challenge 3
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/challenge4-solutions.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge4-solutions.html /home/eitm$i/code/
+	sudo chown eitm$i -R /home/eitm$i/
+done
+
