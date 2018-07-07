@@ -181,9 +181,10 @@ Very useful for us -- __GROUP BY__ allows us to aggregate results based on value
 
 ```{r}
 dbGetQuery(db, 
-  "SELECT from_name, COUNT(type) AS type_count
+  "SELECT from_name, COUNT(*) AS post_count
   FROM posts
-  GROUP BY type")
+  GROUP BY from_name
+  LIMIT 10")
 ```
 
 And we can then order the results using __ORDER BY__. The default is alphabetical order for the first column, but we can change that:

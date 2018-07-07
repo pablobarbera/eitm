@@ -90,7 +90,7 @@ dbGetQuery(db,
 
 ```
 
-There are other functions besides just __COUNT__. We can also compute averages, the maximum and minimu of a column, the sum... We can also functions like __SUBSTR__ to extract parts of a character string.
+There are other functions besides just __COUNT__. We can also compute averages, the maximum and minimum of a column, the sum... We can also functions like __SUBSTR__ to extract parts of a character string.
 
 ```{r}
 # average number of posts by party
