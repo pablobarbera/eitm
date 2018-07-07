@@ -94,3 +94,73 @@ do
 	sudo chown eitm$i -R /home/eitm$i/
 done
 
+
+# emoji tweets
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/05b-twitter-emoji-data-collection.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/05b-twitter-emoji-data-collection.html /home/eitm$i/code/
+	sudo chown eitm$i -R /home/eitm$i/
+done
+
+
+# solutions challenge 6
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/challenge6-solutions.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge6-solutions.html /home/eitm$i/code/
+	sudo chown eitm$i -R /home/eitm$i/
+done
+
+# materials day 3, session 1
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/09-sql-intro.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/10-sql-advanced.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge7.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge8.Rmd /home/eitm$i/code/
+	cp /home/rstudio/data/congress-facebook-2017.csv /home/eitm$i/data/
+	mkdir /home/eitm$i/data/posts
+	cp /home/rstudio/data/posts/* /home/eitm$i/data/posts/
+done
+
+
+
+# solutions challenge 7
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/challenge7-solutions.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge7-solutions.html /home/eitm$i/code/
+	sudo chown eitm$i -R /home/eitm$i/
+done
+
+# solutions challenge 8
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/challenge8-solutions.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge8-solutions.html /home/eitm$i/code/
+	sudo chown eitm$i -R /home/eitm$i/
+done
+
+# materials day 3, session 2
+for i in 0{1..9} {10..50}
+do
+	mkdir /home/eitm$i/credentials
+	cp /home/rstudio/credentials/bigquery-token.json /home/eitm$i/credentials/
+	cp /home/rstudio/code/11-bigquery-intro.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/12-bigquery-advanced.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge9.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge10.Rmd /home/eitm$i/code/
+done
+
+
+# solutions challenge 9
+for i in 0{1..9} {10..50}
+do
+	cp /home/rstudio/code/challenge9-solutions.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge9-solutions.html /home/eitm$i/code/
+	cp /home/rstudio/code/challenge10-solutions.Rmd /home/eitm$i/code/
+	cp /home/rstudio/code/challenge10-solutions.html /home/eitm$i/code/
+	sudo chown eitm$i -R /home/eitm$i/
+done
+

@@ -21,7 +21,7 @@ searchTweets(q=c("kennedy", "supreme court"),
   n=1000, until="2018-07-01", 
   oauth=my_oauth)
 
-tweets <- parseTweets("../data/kennedy-tweets.json")
+tweets <- parseTweets("../data/kennedytweets.json")
 ```
 
 What are the most popular hashtags?

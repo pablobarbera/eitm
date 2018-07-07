@@ -1,0 +1,28 @@
+---
+title: "Searching tweets with emoji characters"
+author: "Pablo Barbera"
+date: July 6, 2018
+output: html_document
+---
+
+### An example...
+
+
+```{r}
+load("~/my_oauth")
+library(tweetscores)
+library(streamR)
+```
+
+```{r, eval=FALSE}
+searchTweets(q="🤦",
+  filename="../data/facepalm-emoji-tweets.json",
+  n=1000,
+  oauth=my_oauth)
+```
+
+```{r}
+tweets <- parseTweets("../data/facepalm-emoji-tweets.json")
+
+cat(sample(tweets$text, 5))
+```
